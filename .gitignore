@@ -1,3 +1,5 @@
 node_modules
 .env
 EnvVar
+
+/tsv-img-gdrive

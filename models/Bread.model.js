@@ -3,10 +3,10 @@ const Schema = mongoose.Schema;
 
 const bread = new Schema({
   title: { type: String, required: true },
-  image: { type: String, required: true },
+  image: { type: String },
   ingredients: {
     biga: { type: String },
-    fruitWater: { type: String, required: true },
+    fruitWater: { type: String },
     wheatFlour: { type: Number },
     wholeGrainWheatFlour: { type: Number },
     ryeFlour: { type: Number },
@@ -18,7 +18,7 @@ const bread = new Schema({
   hydration: { type: Number },
   type: { type: String, required: true },
   category: { type: String, required: true },
-  price: { type: Number, required: true },
+  price: { type: Number },
 });
 
 module.exports = mongoose.model("Bread", bread);
