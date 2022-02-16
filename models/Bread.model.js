@@ -6,7 +6,7 @@ const bread = new Schema({
   image: { type: String },
   ingredients: {
     biga: { type: String },
-    fruitWater: { type: String },
+    fruitWater: { type: Number },
     wheatFlour: { type: Number },
     wholeGrainWheatFlour: { type: Number },
     ryeFlour: { type: Number },
